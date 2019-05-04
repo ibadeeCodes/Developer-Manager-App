@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h2 class="center-align">Developer Manager App</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="sort">
+                <a class="sort-btn waves-effect waves-light btn-large red">Sort</a>
+            </div>
+        </div>    
+        <div class="banner">  
+            <!--Pushed Form-->
+            <div class="content">
+                <ul id="addForm">
+                    <li class="devform">
+                        <!--
+
+                        -->
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+
+                <!-- Modal Trigger -->
+                <div class="container">
+                    <a class="btn-fixed btn-floating btn-large waves-effect waves-light red modal-trigger" href="#modal1"><i class="material-icons">add</i></a>
+                </div>
+
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal modal-fixed-footer">
+                    <div class="modal-content ">
+                        <h4 class="center-align">Add Developer Details</h4>
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12 l6">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="name icon_prefix" type="text" class="developer_name validate">
+                                    <label for="icon_prefix">Name</label>
+                                </div>
+                                <div class="input-field col s12 l6">
+                                    <i class="material-icons prefix">email</i>
+                                    <input id="icon_telephone" type="email" class="developer_email validate">
+                                    <label for="icon_telephone">Email</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12 l6">
+                                    <i class="material-icons prefix">filter_frames</i>
+                                    <input id="icon_telephone" type="text" class="developer_designation validate">
+                                    <label for="icon_telephone">Designation</label>
+                                </div>
+                                <div class="col l6 s12">
+                                        
+                                    <div class="chips chips-placeholder">
+                                        <i class="fab fa-python"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12 l6">
+                                    <i class="material-icons prefix">euro_symbol</i>
+                                    <input id="icon_prefix" type="number" class="developer_salary validate">
+                                    <label for="icon_prefix">Salary</label>
+                                </div>
+                                <div class="input-field col s12 l6">
+                                    <i class="material-icons prefix"><i class="fab fa-github"></i></i>
+                                    <input id="icon_telephone" type="text" class="developer_github validate">
+                                    <label for="icon_telephone">github link</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12 l6">
+                                    <i class="material-icons prefix"><i class="fab fa-linkedin"></i></i>
+                                    <input id="icon_prefix" type="text" class="developer_linkedin validate">
+                                    <label for="icon_prefix">linkedin</label>
+                                </div>
+                                <div class="input-field col s12 l6">
+                                    <i class="material-icons prefix"><i class="fas fa-user-circle"></i></i>
+                                    <input id="icon_telephone" type="text" class="developer_photo validate">
+                                    <label for="icon_telephone">photo</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" id="submit-button" class="modal-close waves-effect waves-green btn-flat">Add</a>
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
+                    </div>
+                </div>
+
+                <!--Edit Modal Trigger-->
+                <!-- Modal Structure -->
+                <div id="modal2" class="modal modal-fixed-footer">
+                    <div class="modal-content ">
+                        <h4 class="center-align">Add Developer Details</h4>
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12 l6">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="name icon_prefix" type="text" class="developer_name validate">
+                                    <label for="icon_prefix">Name</label>
+                                </div>
+                                <div class="input-field col s12 l6">
+                                    <i class="material-icons prefix">email</i>
+                                    <input id="icon_telephone" type="email" class="developer_email validate">
+                                    <label for="icon_telephone">Email</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12 l6">
+                                    <i class="material-icons prefix">filter_frames</i>
+                                    <input id="icon_telephone" type="text" class="developer_designation validate">
+                                    <label for="icon_telephone">Designation</label>
+                                </div>
+                                <div class="col l6 s12">
+                                        
+                                    <div class="chips chips-placeholder">
+                                        <i class="fab fa-python"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12 l6">
+                                    <i class="material-icons prefix">euro_symbol</i>
+                                    <input id="icon_prefix" type="number" class="developer_salary validate">
+                                    <label for="icon_prefix">Salary</label>
+                                </div>
+                                <div class="input-field col s12 l6">
+                                    <i class="material-icons prefix"><i class="fab fa-github"></i></i>
+                                    <input id="icon_telephone" type="text" class="developer_github validate">
+                                    <label for="icon_telephone">github link</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12 l6">
+                                    <i class="material-icons prefix"><i class="fab fa-linkedin"></i></i>
+                                    <input id="icon_prefix" type="text" class="developer_linkedin validate">
+                                    <label for="icon_prefix">linkedin</label>
+                                </div>
+                                <div class="input-field col s12 l6">
+                                    <i class="material-icons prefix"><i class="fas fa-user-circle"></i></i>
+                                    <input id="icon_telephone" type="text" class="developer_photo validate">
+                                    <label for="icon_telephone">photo</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" id="submit-button" class="modal-close waves-effect waves-green btn-flat">Add</a>
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
+                    </div>
+                </div>
+                <!--Edit modal trigger ends here!!-->
+
+
+            </div>
+        </div>    
+            <!-- Tap Target Structure -->
+            <div class="tap-target" data-target="menu">
+                <div class="tap-target-content">
+                    <h5>Title</h5>
+                    <p>A bunch of text</p>
+                </div>
+            </div>
+            
+            <!--Sidebar Code-->
+
+            <ul id="slide-out" class="sidenav">
+                <li>
+                    <div class="user-view">
+                        <div class="background">
+                            <img src="img/image3.jpg">
+                        </div>
+                        <a  class="user-pic" href="#user"><img class="circle" src="img/Admin2.png"></a>
+                        <a href="#name"><span class="white-text name">John Doe</span></a>
+                        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                    </div>
+                </li>
+                <li><a href="#!">Personal Details</a></li>
+                <li><div class="divider"></div></li>
+                <li><a class="clear waves-effect" href="#!">Delete All</a></li>
+            </ul>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+
+</html>

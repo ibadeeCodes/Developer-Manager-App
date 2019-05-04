@@ -1,0 +1,50 @@
+#wrapper {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#header {
+    background: url(/img/banner3.jpg) no-repeat center / cover;
+}
+.modal-trigger{
+    position: fixed !important;
+    top: 85% !important;
+    left: 90% !important;
+}
+.user-pic img{
+    width: 100px !important;
+    height: 100px !important;
+}
+.sidenav-trigger{
+    color: white !important;
+    position: fixed !important;
+    bottom: 91%;
+    left: 2%;
+}
+.sidenav-trigger i{
+    font-size: 45px;
+}
+.devform {
+    margin-top: 80px;
+    background-color: rgb(241, 240, 240);
+}
+.devform h3 {
+    text-align: center;
+}
+.card-content {
+    background-color: rgb(243, 246, 246)
+}
+.card-content h6 {
+    
+}
+.content {
+    margin: 0 auto;
+    width:70%;
+}
+.sort-btn {
+     cursor: pointer;
+}
